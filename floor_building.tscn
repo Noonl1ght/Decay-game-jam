@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkwqfv3ocxmt7"]
+
+[ext_resource type="PackedScene" uid="uid://cshui5e26iry" path="res://Models/FBX format/building-q.fbx" id="1_y8bsk"]
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.957466, -0.288547, 0, 0.288547, 0.957466, 0, 0, 0)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.961459, 0.274949, 0, -0.274949, 0.961459, 2.64958, 0.72895, 2.54903)
+size = Vector3(28.6372, 1, 27.0504)
+
+[node name="building-q" parent="." instance=ExtResource("1_y8bsk")]
+transform = Transform3D(1, 0, 0, 0, 0.957466, 0.288547, 0, -0.288547, 0.957466, 3.19192, 1.27781, 2.57956)
