@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpufjjw770cgd"]
+
+[ext_resource type="Script" uid="uid://b684di7cvmjry" path="res://scripts/player.gd" id="1_3vyb7"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_sh265"]
+
+[node name="player" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.215576, -0.0180907, -0.254356)
+script = ExtResource("1_3vyb7")
+
+[node name="Body" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0179117, 1.00961, 0.00160682)
+shape = SubResource("CapsuleShape3D_sh265")
+debug_color = Color(0.509804, 0.423529, 1, 1)
+
+[node name="head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.02411, 0)
+
+[node name="Camera3D" type="Camera3D" parent="head"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0232671, 0.0431706, -0.0115072)
