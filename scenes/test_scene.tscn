@@ -13,9 +13,9 @@ transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75
 shadow_enabled = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.31927, 0.0822552, 0.949951)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.164323, 0.0822552, -7.18631)
 use_collision = true
-size = Vector3(3.63855, 0.0649414, 2.8999)
+size = Vector3(20.2763, 0.0649414, 29.2562)
 
 [node name="player" type="CharacterBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.030899, 1.86511)
