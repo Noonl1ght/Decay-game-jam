@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baibbkm1yye35"
-path.s3tc="res://.godot/imported/colormap.png-0180089f3ff3b1b1c52adb546c6ef8b3.s3tc.ctex"
+uid="uid://daqw08ud0oadx"
+path.s3tc="res://.godot/imported/decaying-wood-disp.jpg-76ab0413a9c726958cafd366dd8ff0ed.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/FBX format/Textures/colormap.png"
-dest_files=["res://.godot/imported/colormap.png-0180089f3ff3b1b1c52adb546c6ef8b3.s3tc.ctex"]
+source_file="res://models 3/GLB format/Textures/decaying-wood-disp.jpg"
+dest_files=["res://.godot/imported/decaying-wood-disp.jpg-76ab0413a9c726958cafd366dd8ff0ed.s3tc.ctex"]
 
 [params]
 

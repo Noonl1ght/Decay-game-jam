@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://c7wjcju5kbyqf"]
+
+[ext_resource type="Texture2D" uid="uid://dnov57vgh03rs" path="res://models 3/GLB format/Textures/variation-a.png" id="1_rxv35"]
+
+[resource]
+albedo_color = Color(0.213022, 0.529957, 0.362419, 1)
+albedo_texture = ExtResource("1_rxv35")
+albedo_texture_force_srgb = true

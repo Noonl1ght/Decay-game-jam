@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baibbkm1yye35"
-path.s3tc="res://.godot/imported/colormap.png-0180089f3ff3b1b1c52adb546c6ef8b3.s3tc.ctex"
+uid="uid://bh8biyy2o5ycm"
+path.s3tc="res://.godot/imported/gravel_norm.jpg-1b342b4da9a995588c20f817006f0117.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/FBX format/Textures/colormap.png"
-dest_files=["res://.godot/imported/colormap.png-0180089f3ff3b1b1c52adb546c6ef8b3.s3tc.ctex"]
+source_file="res://models 3/GLB format/Textures/gravel_norm.jpg"
+dest_files=["res://.godot/imported/gravel_norm.jpg-1b342b4da9a995588c20f817006f0117.s3tc.ctex"]
 
 [params]
 
@@ -20,12 +20,12 @@ compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
+roughness/mode=1
+roughness/src_normal="res://models 3/GLB format/Textures/gravel_norm.jpg"
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
