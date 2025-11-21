@@ -6,8 +6,8 @@
 transform = Transform3D(1, 0, 0, 0, 0.957466, -0.288547, 0, 0.288547, 0.957466, 0, 0, 0)
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.961459, 0.274949, 0, -0.274949, 0.961459, 2.64958, 0.72895, 2.54903)
-size = Vector3(28.6372, 1, 27.0504)
+transform = Transform3D(1, 0, 0, 0, 0.961459, 0.274949, 0, -0.274949, 0.961459, 12.9087, 4.11888, 14.2467)
+size = Vector3(49.1359, 1, 52.3874)
 
 [node name="building-q" parent="." instance=ExtResource("1_y8bsk")]
-transform = Transform3D(1, 0, 0, 0, 0.957466, 0.288547, 0, -0.288547, 0.957466, 3.19192, 1.27781, 2.57956)
+transform = Transform3D(1, 0, 0, 0, 0.957466, 0.288547, 0, -0.288547, 0.957466, 3.30561, 0.546026, -0.260873)
