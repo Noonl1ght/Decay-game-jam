@@ -34,11 +34,12 @@ func _physics_process(delta):
 	$CanvasLayer/BoxContainer/InteractText.hide()
 	if %Reach.is_colliding():
 		var target = %Reach.get_collider()
-		if target.has_method("interact"):
+		var y = target.get_parent().get_parent()
+		if y.has_method("interact"):
 			$CanvasLayer/BoxContainer/InteractText.show()
-			print("you can interact with this item!")
+			#print("you can interact with this item!")
 			if Input.is_action_just_pressed("interact"):
-				target.interact()
+				y.interact()
 	
 	if not is_on_floor():
 		velocity.y -= gravity * delta
